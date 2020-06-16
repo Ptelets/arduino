@@ -4,12 +4,9 @@
 
 
 ### Brief Introduction.
+ - The initial idea of this project was to make a WiFi-connected weather station which would display the information by the network connection via the browser. Some of the examples were found on the Internet and gave the idea of what to do. The initial plan was simple, display just the temperature with humidity and the Carbon Dioxide reading in the air, the information would be transmitted via the WiFi module to the network where it could be opened and checked via the browser. This is the point where the new and a current idea originated..
 
-	The initial idea of this project was to make a WiFi-connected weather station which would display the information by the network connection via the browser. Some of the examples were found on the Internet and gave the idea of what to do. The initial plan was simple, display just the temperature with humidity and the Carbon Dioxide reading in the air, 
-the information would be transmitted via the WiFi module to the network where it could be opened and checked via the browser. 
-This is the point where the new and a current idea originated..
-
-	Since the initial WiFi sensor was too bulky, the plan to utilize more smaller components came in to play.  This is where I used Arduino Nano33 IoT as the base of the project. Due to a limited power pinout (3.3V and a Ground pin)  there was a need for connecting something what could hold more power connections than base. To maximize the pinout connections, I used Extendable Power Supply which is limited only to the Ground and Power (Power being either 3.3V connection or 5V connection, nothing else). The problem with a limited power pinout was solved in almost no time. Futhermore, now was the time to connect all of the sensors into the project, for this task I’ve used DHT22, BMP280, CO2 sensor and PM2.5 which I soon will brief about.
+ - Since the initial WiFi sensor was too bulky, the plan to utilize more smaller components came in to play.  This is where I used Arduino Nano33 IoT as the base of the project. Due to a limited power pinout (3.3V and a Ground pin)  there was a need for connecting something what could hold more power connections than base. To maximize the pinout connections, I used Extendable Power Supply which is limited only to the Ground and Power (Power being either 3.3V connection or 5V connection, nothing else). The problem with a limited power pinout was solved in almost no time. Futhermore, now was the time to connect all of the sensors into the project, for this task I’ve used DHT22, BMP280, CO2 sensor and PM2.5 which I soon will brief about.
 
 
 
