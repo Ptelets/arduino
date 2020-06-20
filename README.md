@@ -15,7 +15,7 @@
 
 ![Arduino nano 33 IOT pinout](img/arduino-nano33-iot-pinout.png)
 
-## [Full project description](/img/final_project.pdf)
+## [Full project description](/img/project_final.pdf)
 
 ## References
 [The official Arduino Nano 33 IOT quick start guide](https://www.arduino.cc/en/Guide/NANO33IoT)
